@@ -1,9 +1,0 @@
-.container {
-  cursor: pointer;
-  display: flex;
-}
-
-.container>img {
-  margin: auto;
-  height: 80%;
-}
