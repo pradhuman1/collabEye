@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: #0A1612;
+    height:5vh;
+    width: 50vw;
+    margin: 1vh auto 0 auto;
+}
+
+.acceptBtn{
+    background-color: #57bc90;
+    display: flex;
+    height:5vh;
+    width: 6vw;
+    margin: 0 0 0 auto;
+    cursor: pointer;
+}
+
+.rejectBtn{
+    background-color: #FC4A1A;
+    height:5vh;
+    width: 6vw;
+    display: flex;
+    margin: 0 0 0 0;
+    cursor: pointer;
+}
+
+.main{
+    display: flex;
+}
+
+.main > p{
+    margin: auto auto auto 1vw;
+    color: #ffffff;
+    font-family: Noto Sans;
+    font-weight: 500;
+}
+.acceptBtn > img{
+    height: 80%;
+    margin: auto;
+
+}
+.rejectBtn > img{
+    height: 60%;
+    margin: auto;
+
+}

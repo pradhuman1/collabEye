@@ -1,0 +1,63 @@
+.members {
+  display: flex;
+  flex-direction: column;
+  height: 92vh;
+  width: 90vw;
+}
+
+.membersCtn {
+  overflow-y: scroll;
+  margin: auto auto auto auto;
+  width: 90vw;
+  /* border: solid 1px black; */
+  height: 80vh;
+}
+
+.membersCtn::-webkit-scrollbar {
+  width: 0.5vw;
+}
+
+.membersCtn::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 0.5rem;
+}
+.errorMessage {
+  /* border: solid 2px red; */
+  width: 20%;
+  height: 3vh;
+  font-size: 0.8rem;
+  color: red;
+  margin: 2vh 0 0 20vw;
+}
+.addMemberCtn {
+  margin: 0 auto 1vh auto;
+  display: flex;
+  width: 4vh;
+  /* background-color: blueviolet; */
+  width: 70vw;
+}
+
+.addMemberBtn {
+  display: flex;
+  cursor: pointer;
+  height: 6vh;
+  width: 8vw;
+  margin: 0 13vw 0 auto;
+  background-color: #f78733;
+  border-radius: 5px;
+}
+
+.addMemberBtn > p {
+  margin: auto auto auto auto;
+  font-weight: bold;
+}
+
+.membernameInput {
+  width: 35vw;
+  margin: 0 0 0 10vw;
+  border: none;
+  outline: none;
+  font-size: 1.1rem;
+  font-family: Montserrat;
+  border-bottom: solid 2px black;
+}

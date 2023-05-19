@@ -1,0 +1,69 @@
+.container {
+  position: fixed;
+  display: flex;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  background: rgba(66, 66, 66, 0.6);
+}
+
+.popUp {
+  display: flex;
+  flex-direction: column;
+  font-family: Nunito;
+  margin: auto;
+  width: 25vw;
+  height: 75vh;
+  border-radius: 1rem;
+  padding: 2vh 1vw;
+  z-index: 10;
+  background: #CAEBF2;
+}
+
+.close {
+  height: 4vh;
+  width: auto;
+  margin: 0 0 0 auto;
+  cursor: pointer;
+}
+
+.popUp > h1 {
+  font-weight: 700;
+  font-family: Nunito;
+  color: #121212;
+  font-size: 1.3rem;
+  margin: 1vh auto 0 auto;
+}
+
+.inputDiv {
+  display: flex;
+}
+
+.fileInput > input {
+  display: none;
+}
+
+.fileInput {
+  margin: 2vh 1vw 4vh auto;
+  cursor: pointer;
+  color: #121212;
+  text-decoration: underline;
+}
+
+.btnSave {
+  background-color: #FF3B3F;
+  margin: auto;
+  display: flex;
+  border-radius: 0.25rem;
+  height: 5vh;
+  width: 12vw;
+  cursor: pointer;
+}
+
+.btnSave > p {
+  font-weight: 600;
+  font-family: Nunito;
+  color: #FFFFFF;
+  font-size: 1rem;
+  margin: auto;
+}

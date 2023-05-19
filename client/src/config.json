@@ -1,0 +1,4 @@
+{
+    "SERVER": "http://localhost:3333",
+    "MEETING_SERVER": "https://desolate-lowlands-81248.herokuapp.com"
+}

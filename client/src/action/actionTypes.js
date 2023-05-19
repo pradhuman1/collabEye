@@ -1,0 +1,43 @@
+export const LOGIN_SETSUSERNAME = "LOGIN_SETSUSERNAME";
+export const LOGIN_SETSEMAIL = "LOGIN_SETSEMAIL";
+export const LOGIN_SETSPASSWORD = "LOGIN_SETSPASSWORD";
+export const LOGIN_SIGNUP_ERROR = "LOGIN_SIGNUP_ERROR";
+export const LOGIN_SIGNUP_USER = "LOGIN_SIGNUP_USER";
+export const LOGIN_SIGNUP_TOKEN = "LOGIN_SIGNUP_TOKEN";
+export const LOGIN_SETLEMAIL = "LOGIN_SETLEMAIL";
+export const LOGIN_SETLPASSWORD = "LOGIN_SETLPASSWORD";
+export const LOGIN_LOGIN_ERROR = "LOGIN_LOGIN_ERROR";
+
+export const LIST_OPEN_BOARD = "LIST_OPEN_BOARD";
+export const LIST_SET_BOARD = "LIST_SET_BOARD";
+export const LIST_SET_FULL = "LIST_SET_FULL";
+export const LIST_ADD_ITEM = "LIST_ADD_ITEM";
+
+export const TOGGLE_EDITABLE = "TOGGLE_EDITABLE";
+export const EDIT_DATA = "EDIT_DATA";
+export const SET_TYPEC = "SET_TYPEC";
+export const REMOVE_BOX = "REMOVE_BOX";
+export const SAVE_DOCS_CONTENT = "SAVE_DOCS_CONTENT";
+
+export const ADD_PROJECT = "ADD_PROJECT";
+export const PNAMECHANGE = "PNAMECHANGE";
+export const GET_PROJECTS = "GET_PROJECTS";
+export const SET_PROJECT = "SET_PROJECT";
+export const PROJECT_ERROR = "PROJECT_ERROR";
+export const SET_EXTRAS = "SET_EXTRAS";
+export const SET_EXTRA_VAL = "SET_EXTRA_VAL";
+
+// member
+export const SET_MEMBERS = "SET_MEMBERS";
+export const MAKE_ADMIN = "MAKE_ADMIN";
+
+export const SET_TASKS = "SET_TASKS";
+
+// messages
+
+export const SET_MESSAGES = "SET_MESSAGES";
+export const APPEND_MESSAGES = "APPEND_MESSAGES";
+
+// editor
+
+export const SET_QUILL_DATA = "SET_QUILL_DATA";

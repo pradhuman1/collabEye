@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 92vh;
+    width: 90vw;
+}
+
+.gatherBtn {
+    width: 15vw;
+    background-color: #F7CE3E;
+    cursor: pointer;
+    display: flex;
+    border-radius: '5px';
+}
+
+.gatherBtn>p {
+    margin: auto;
+    font-family: Noto Sans;
+    font-size: 1.2rem;
+    color: #121212;
+}
+
+.activityContainer {
+    margin-top: auto;
+    height: 8vh;
+    display: flex;
+}
+
+.activityContainer>input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    font-family: Nunito;
+    margin: 0 2vw;
+    width: 40vw;
+}
+
+.sendBtn {
+    background-color: #dfdce3;
+    width: 10vw;
+    margin: 0 1vw 0 auto;
+    cursor: pointer;
+    display: flex;
+}
+
+.sendBtn>p {
+    margin: auto;
+    font-family: Noto Sans;
+    font-size: 1.2rem;
+    color: #121212;
+}
+
+.messageScroll {
+    height: 80vh;
+    overflow-y: scroll;
+}
+
+.messageScroll::-webkit-scrollbar {
+    background-color: black;
+    width: 0.5vw;
+}
+
+.messageScroll::-webkit-scrollbar-thumb {
+    background-color: wheat;
+    border-radius: 0.5rem;
+}
